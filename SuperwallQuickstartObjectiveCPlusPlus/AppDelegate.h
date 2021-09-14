@@ -6,6 +6,9 @@
 //
 
 #import <UIKit/UIKit.h>
+@protocol SKPaymentTransactionObserver;
+@protocol SKProductsRequestDelegate;
+#import <Paywall/Paywall-Swift.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

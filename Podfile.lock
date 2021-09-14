@@ -1,0 +1,33 @@
+PODS:
+  - ASN1Swift (1.2.3)
+  - Paywall (1.0.7):
+    - TPInAppReceipt (~> 3.0.0)
+  - TPInAppReceipt (3.0.2):
+    - ASN1Swift (~> 1.2.3)
+
+DEPENDENCIES:
+  - Paywall (from `https://github.com/superwall-me/paywall-ios.git`, tag `1.0.7`)
+
+SPEC REPOS:
+  trunk:
+    - ASN1Swift
+    - TPInAppReceipt
+
+EXTERNAL SOURCES:
+  Paywall:
+    :git: https://github.com/superwall-me/paywall-ios.git
+    :tag: 1.0.7
+
+CHECKOUT OPTIONS:
+  Paywall:
+    :git: https://github.com/superwall-me/paywall-ios.git
+    :tag: 1.0.7
+
+SPEC CHECKSUMS:
+  ASN1Swift: 73ba94f1d97c1c1d059d180708ad42845aeac4f9
+  Paywall: 47d2d95720d26ef84cdf1ca02f6ac95ef12a9157
+  TPInAppReceipt: 8e397b2e493c2f2904d5ce67cd8adfdf007a3644
+
+PODFILE CHECKSUM: 6c6befdfbd8fd31b570ed9ac06db051454b5d808
+
+COCOAPODS: 1.10.1

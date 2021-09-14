@@ -3,19 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D35B744126F0BD5600322C6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D35B744026F0BD5600322C6A /* AppDelegate.m */; };
+		437C55A93591D71C368107E6 /* Pods_SuperwallQuickstartObjectiveCPlusPlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8634A523F379BA900B8A8FF /* Pods_SuperwallQuickstartObjectiveCPlusPlus.framework */; };
+		D35B744126F0BD5600322C6A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = D35B744026F0BD5600322C6A /* AppDelegate.mm */; };
 		D35B744426F0BD5600322C6A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D35B744326F0BD5600322C6A /* SceneDelegate.m */; };
-		D35B744726F0BD5600322C6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35B744626F0BD5600322C6A /* ViewController.m */; };
+		D35B744726F0BD5600322C6A /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = D35B744626F0BD5600322C6A /* ViewController.mm */; };
 		D35B744A26F0BD5600322C6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35B744826F0BD5600322C6A /* Main.storyboard */; };
 		D35B744C26F0BD5900322C6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35B744B26F0BD5900322C6A /* Assets.xcassets */; };
 		D35B744F26F0BD5900322C6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35B744D26F0BD5900322C6A /* LaunchScreen.storyboard */; };
 		D35B745226F0BD5900322C6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D35B745126F0BD5900322C6A /* main.m */; };
 		D35B745C26F0BD5900322C6A /* SuperwallQuickstartObjectiveCPlusPlusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D35B745B26F0BD5900322C6A /* SuperwallQuickstartObjectiveCPlusPlusTests.m */; };
 		D35B746726F0BD5900322C6A /* SuperwallQuickstartObjectiveCPlusPlusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D35B746626F0BD5900322C6A /* SuperwallQuickstartObjectiveCPlusPlusUITests.m */; };
+		EC66F401046FA0761B1D8A6F /* Pods_SuperwallQuickstartObjectiveCPlusPlusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E861145E2D03A9642D5C7BD5 /* Pods_SuperwallQuickstartObjectiveCPlusPlusTests.framework */; };
+		F27D617D186CB690DFCCCBA6 /* Pods_SuperwallQuickstartObjectiveCPlusPlus_SuperwallQuickstartObjectiveCPlusPlusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A3AB5A92D729625E3DEDC1 /* Pods_SuperwallQuickstartObjectiveCPlusPlus_SuperwallQuickstartObjectiveCPlusPlusUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +39,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13F910BE11D3E2A0BCC6A361 /* Pods-SuperwallQuickstartObjectiveCPlusPlus-SuperwallQuickstartObjectiveCPlusPlusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperwallQuickstartObjectiveCPlusPlus-SuperwallQuickstartObjectiveCPlusPlusUITests.release.xcconfig"; path = "Target Support Files/Pods-SuperwallQuickstartObjectiveCPlusPlus-SuperwallQuickstartObjectiveCPlusPlusUITests/Pods-SuperwallQuickstartObjectiveCPlusPlus-SuperwallQuickstartObjectiveCPlusPlusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1C6FADEEFE8435A758FD9656 /* Pods-SuperwallQuickstartObjectiveCPlusPlus-SuperwallQuickstartObjectiveCPlusPlusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperwallQuickstartObjectiveCPlusPlus-SuperwallQuickstartObjectiveCPlusPlusUITests.debug.xcconfig"; path = "Target Support Files/Pods-SuperwallQuickstartObjectiveCPlusPlus-SuperwallQuickstartObjectiveCPlusPlusUITests/Pods-SuperwallQuickstartObjectiveCPlusPlus-SuperwallQuickstartObjectiveCPlusPlusUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A02CFA8CD3E1C3667783D82 /* Pods-SuperwallQuickstartObjectiveCPlusPlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperwallQuickstartObjectiveCPlusPlus.debug.xcconfig"; path = "Target Support Files/Pods-SuperwallQuickstartObjectiveCPlusPlus/Pods-SuperwallQuickstartObjectiveCPlusPlus.debug.xcconfig"; sourceTree = "<group>"; };
+		468B541BBD027AB72EC661E7 /* Pods-SuperwallQuickstartObjectiveCPlusPlusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperwallQuickstartObjectiveCPlusPlusTests.debug.xcconfig"; path = "Target Support Files/Pods-SuperwallQuickstartObjectiveCPlusPlusTests/Pods-SuperwallQuickstartObjectiveCPlusPlusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BDA0307B21797FDF4A338FE /* Pods-SuperwallQuickstartObjectiveCPlusPlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperwallQuickstartObjectiveCPlusPlus.release.xcconfig"; path = "Target Support Files/Pods-SuperwallQuickstartObjectiveCPlusPlus/Pods-SuperwallQuickstartObjectiveCPlusPlus.release.xcconfig"; sourceTree = "<group>"; };
+		92A3AB5A92D729625E3DEDC1 /* Pods_SuperwallQuickstartObjectiveCPlusPlus_SuperwallQuickstartObjectiveCPlusPlusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperwallQuickstartObjectiveCPlusPlus_SuperwallQuickstartObjectiveCPlusPlusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		977CF5986270376DC07676AA /* Pods-SuperwallQuickstartObjectiveCPlusPlusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperwallQuickstartObjectiveCPlusPlusTests.release.xcconfig"; path = "Target Support Files/Pods-SuperwallQuickstartObjectiveCPlusPlusTests/Pods-SuperwallQuickstartObjectiveCPlusPlusTests.release.xcconfig"; sourceTree = "<group>"; };
+		B8634A523F379BA900B8A8FF /* Pods_SuperwallQuickstartObjectiveCPlusPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperwallQuickstartObjectiveCPlusPlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35B743C26F0BD5600322C6A /* SuperwallQuickstartObjectiveCPlusPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperwallQuickstartObjectiveCPlusPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35B743F26F0BD5600322C6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D35B744026F0BD5600322C6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D35B744026F0BD5600322C6A /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		D35B744226F0BD5600322C6A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		D35B744326F0BD5600322C6A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		D35B744526F0BD5600322C6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D35B744626F0BD5600322C6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D35B744626F0BD5600322C6A /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		D35B744926F0BD5600322C6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D35B744B26F0BD5900322C6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D35B744E26F0BD5900322C6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +65,7 @@
 		D35B746226F0BD5900322C6A /* SuperwallQuickstartObjectiveCPlusPlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperwallQuickstartObjectiveCPlusPlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35B746626F0BD5900322C6A /* SuperwallQuickstartObjectiveCPlusPlusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperwallQuickstartObjectiveCPlusPlusUITests.m; sourceTree = "<group>"; };
 		D35B746826F0BD5900322C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E861145E2D03A9642D5C7BD5 /* Pods_SuperwallQuickstartObjectiveCPlusPlusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperwallQuickstartObjectiveCPlusPlusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				437C55A93591D71C368107E6 /* Pods_SuperwallQuickstartObjectiveCPlusPlus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC66F401046FA0761B1D8A6F /* Pods_SuperwallQuickstartObjectiveCPlusPlusTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +89,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F27D617D186CB690DFCCCBA6 /* Pods_SuperwallQuickstartObjectiveCPlusPlus_SuperwallQuickstartObjectiveCPlusPlusUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		282BA026C35CD18F2AFAB418 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A02CFA8CD3E1C3667783D82 /* Pods-SuperwallQuickstartObjectiveCPlusPlus.debug.xcconfig */,
+				7BDA0307B21797FDF4A338FE /* Pods-SuperwallQuickstartObjectiveCPlusPlus.release.xcconfig */,
+				1C6FADEEFE8435A758FD9656 /* Pods-SuperwallQuickstartObjectiveCPlusPlus-SuperwallQuickstartObjectiveCPlusPlusUITests.debug.xcconfig */,
+				13F910BE11D3E2A0BCC6A361 /* Pods-SuperwallQuickstartObjectiveCPlusPlus-SuperwallQuickstartObjectiveCPlusPlusUITests.release.xcconfig */,
+				468B541BBD027AB72EC661E7 /* Pods-SuperwallQuickstartObjectiveCPlusPlusTests.debug.xcconfig */,
+				977CF5986270376DC07676AA /* Pods-SuperwallQuickstartObjectiveCPlusPlusTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D35B743326F0BD5600322C6A = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +116,8 @@
 				D35B745A26F0BD5900322C6A /* SuperwallQuickstartObjectiveCPlusPlusTests */,
 				D35B746526F0BD5900322C6A /* SuperwallQuickstartObjectiveCPlusPlusUITests */,
 				D35B743D26F0BD5600322C6A /* Products */,
+				282BA026C35CD18F2AFAB418 /* Pods */,
+				E4385905369CDA120B592557 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,11 +135,11 @@
 			isa = PBXGroup;
 			children = (
 				D35B743F26F0BD5600322C6A /* AppDelegate.h */,
-				D35B744026F0BD5600322C6A /* AppDelegate.m */,
+				D35B744026F0BD5600322C6A /* AppDelegate.mm */,
 				D35B744226F0BD5600322C6A /* SceneDelegate.h */,
 				D35B744326F0BD5600322C6A /* SceneDelegate.m */,
 				D35B744526F0BD5600322C6A /* ViewController.h */,
-				D35B744626F0BD5600322C6A /* ViewController.m */,
+				D35B744626F0BD5600322C6A /* ViewController.mm */,
 				D35B744826F0BD5600322C6A /* Main.storyboard */,
 				D35B744B26F0BD5900322C6A /* Assets.xcassets */,
 				D35B744D26F0BD5900322C6A /* LaunchScreen.storyboard */,
@@ -137,6 +167,16 @@
 			path = SuperwallQuickstartObjectiveCPlusPlusUITests;
 			sourceTree = "<group>";
 		};
+		E4385905369CDA120B592557 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8634A523F379BA900B8A8FF /* Pods_SuperwallQuickstartObjectiveCPlusPlus.framework */,
+				92A3AB5A92D729625E3DEDC1 /* Pods_SuperwallQuickstartObjectiveCPlusPlus_SuperwallQuickstartObjectiveCPlusPlusUITests.framework */,
+				E861145E2D03A9642D5C7BD5 /* Pods_SuperwallQuickstartObjectiveCPlusPlusTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D35B746B26F0BD5900322C6A /* Build configuration list for PBXNativeTarget "SuperwallQuickstartObjectiveCPlusPlus" */;
 			buildPhases = (
+				76F3735B7EB14760351A79FC /* [CP] Check Pods Manifest.lock */,
 				D35B743826F0BD5600322C6A /* Sources */,
 				D35B743926F0BD5600322C6A /* Frameworks */,
 				D35B743A26F0BD5600322C6A /* Resources */,
+				A753DB7A9F93BA4DA7CEBCC6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D35B746E26F0BD5900322C6A /* Build configuration list for PBXNativeTarget "SuperwallQuickstartObjectiveCPlusPlusTests" */;
 			buildPhases = (
+				DB219BD7C51E2CF5906CBA73 /* [CP] Check Pods Manifest.lock */,
 				D35B745326F0BD5900322C6A /* Sources */,
 				D35B745426F0BD5900322C6A /* Frameworks */,
 				D35B745526F0BD5900322C6A /* Resources */,
@@ -179,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D35B747126F0BD5900322C6A /* Build configuration list for PBXNativeTarget "SuperwallQuickstartObjectiveCPlusPlusUITests" */;
 			buildPhases = (
+				69A16EFB7F8D21F343B843E3 /* [CP] Check Pods Manifest.lock */,
 				D35B745E26F0BD5900322C6A /* Sources */,
 				D35B745F26F0BD5900322C6A /* Frameworks */,
 				D35B746026F0BD5900322C6A /* Resources */,
+				E613EAB73EE61EEB2853C166 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,13 +306,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		69A16EFB7F8D21F343B843E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperwallQuickstartObjectiveCPlusPlus-SuperwallQuickstartObjectiveCPlusPlusUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76F3735B7EB14760351A79FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperwallQuickstartObjectiveCPlusPlus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A753DB7A9F93BA4DA7CEBCC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SuperwallQuickstartObjectiveCPlusPlus/Pods-SuperwallQuickstartObjectiveCPlusPlus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SuperwallQuickstartObjectiveCPlusPlus/Pods-SuperwallQuickstartObjectiveCPlusPlus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SuperwallQuickstartObjectiveCPlusPlus/Pods-SuperwallQuickstartObjectiveCPlusPlus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB219BD7C51E2CF5906CBA73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperwallQuickstartObjectiveCPlusPlusTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E613EAB73EE61EEB2853C166 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SuperwallQuickstartObjectiveCPlusPlus-SuperwallQuickstartObjectiveCPlusPlusUITests/Pods-SuperwallQuickstartObjectiveCPlusPlus-SuperwallQuickstartObjectiveCPlusPlusUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SuperwallQuickstartObjectiveCPlusPlus-SuperwallQuickstartObjectiveCPlusPlusUITests/Pods-SuperwallQuickstartObjectiveCPlusPlus-SuperwallQuickstartObjectiveCPlusPlusUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SuperwallQuickstartObjectiveCPlusPlus-SuperwallQuickstartObjectiveCPlusPlusUITests/Pods-SuperwallQuickstartObjectiveCPlusPlus-SuperwallQuickstartObjectiveCPlusPlusUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D35B743826F0BD5600322C6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D35B744726F0BD5600322C6A /* ViewController.m in Sources */,
-				D35B744126F0BD5600322C6A /* AppDelegate.m in Sources */,
+				D35B744726F0BD5600322C6A /* ViewController.mm in Sources */,
+				D35B744126F0BD5600322C6A /* AppDelegate.mm in Sources */,
 				D35B745226F0BD5900322C6A /* main.m in Sources */,
 				D35B744426F0BD5600322C6A /* SceneDelegate.m in Sources */,
 			);
@@ -438,6 +586,7 @@
 		};
 		D35B746C26F0BD5900322C6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A02CFA8CD3E1C3667783D82 /* Pods-SuperwallQuickstartObjectiveCPlusPlus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +605,7 @@
 		};
 		D35B746D26F0BD5900322C6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BDA0307B21797FDF4A338FE /* Pods-SuperwallQuickstartObjectiveCPlusPlus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,6 +624,7 @@
 		};
 		D35B746F26F0BD5900322C6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 468B541BBD027AB72EC661E7 /* Pods-SuperwallQuickstartObjectiveCPlusPlusTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +645,7 @@
 		};
 		D35B747026F0BD5900322C6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977CF5986270376DC07676AA /* Pods-SuperwallQuickstartObjectiveCPlusPlusTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +666,7 @@
 		};
 		D35B747226F0BD5900322C6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C6FADEEFE8435A758FD9656 /* Pods-SuperwallQuickstartObjectiveCPlusPlus-SuperwallQuickstartObjectiveCPlusPlusUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77ZLSHZ8HR;
@@ -532,6 +685,7 @@
 		};
 		D35B747326F0BD5900322C6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13F910BE11D3E2A0BCC6A361 /* Pods-SuperwallQuickstartObjectiveCPlusPlus-SuperwallQuickstartObjectiveCPlusPlusUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77ZLSHZ8HR;

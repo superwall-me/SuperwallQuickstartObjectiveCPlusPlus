@@ -16,6 +16,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [Paywall configureWithApiKey:@"" userId:nil];
+//    [Paywall trackWithName:@"" params:nil];
     return YES;
 }
 
